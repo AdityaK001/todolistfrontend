@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  h4 {
+    margin: 2rem;
+    padding: 0%;
+  }
+  .date {
+    margin: 2rem;
+    padding: 0%;
+  }
+  p {
+    font-size: 12px;
+  }
+  .overflowcontroller {
+    overflow: scroll;
+  }
+  .navbar {
+    height: 3rem;
+    color: white;
+    font-weight: bold;
+    background-color: #2358ec;
+  }
+  .navbar > .container-fluid {
+    padding-left: 2rem;
+  }
+  
+  .input-group {
+    width: 96%;
+    margin: 0rem auto;
+    padding: 0.5% 1% 0.5% 1%;
+  }
+  
+  .input-group-text {
+    border: 0rem;
+    background-color: white;
+    margin: 0.3rem 0.1rem 0rem 0rem;
+    cursor: auto;
+  }
+  .right_icon {
+    margin: 0.3rem 0rem 0rem 0.1rem;
+    padding: 0.5% 0% 0.5% 0%;
+  }
+  .left_icon {
+    margin: 0.3rem 0.1rem 0rem 0rem;
+    padding: 0.5% 0% 0.5% 0%;
+  }
+  
+  .input-group > .submit {
+    position: relative;
+    left: 96%;
+    /*color: #2358ec;*/
+    /* color: grey; */
+    border: grey;
+    background-color: white;
+    /* cursor: not-allowed; */
+  }
+  
+  .form-control,
+  .form-control:enabled,
+  .form-control:focus {
+    border-color: white;
+    box-shadow: none;
+  }
+  /* .strikethrough {
+    text-decoration: line-through;
+  } */
+  
+  p.form-control {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: large;
+    font-weight: 600;
+  }
+  
