@@ -17,7 +17,7 @@ export default function App() {
   const [showcompletebox, updatecompleteboxstatus] = useState(false);
   const [wantcompletelist, statusCompleteList] = useState(false);
 
-  const url1="https://todolistapi-ocex.onrender.com";
+  const url1="https://todolist-api-aditya.onrender.com";
 
   useEffect(() => {
     fetch(url1)
